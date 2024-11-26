@@ -55,8 +55,6 @@ Static routing can be configured manually by entering the route information on t
 ip route [destination_network] [subnet_mask] [next_hop_address]
 ```
 
-````
-
 - **Example**: To configure a static route to the network `192.168.2.0/24` via the next hop `192.168.1.2`, the configuration would be:
 
 ```bash
@@ -109,9 +107,4 @@ show ip route
 ### 10. Practical Applications
 
 The concepts learned in this exercise are crucial for configuring and managing routing in various types of networks. Static routing is often used in small networks with simple requirements, while dynamic routing protocols like OSPF and EIGRP are essential for large, scalable networks. Understanding routing metrics, configuring routing tables, and troubleshooting routing issues are key skills for network administrators in real-world environments. By mastering these concepts, network engineers can optimize data traffic, ensure efficient data flow, and maintain network reliability.
-
 ```
-
-
-
-````
